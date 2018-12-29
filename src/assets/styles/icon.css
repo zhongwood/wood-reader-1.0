@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'MyreaderIcon';
+  src:  url('fonts/MyreaderIcon.eot?1sg5wj');
+  src:  url('fonts/MyreaderIcon.eot?1sg5wj#iefix') format('embedded-opentype'),
+    url('fonts/MyreaderIcon.ttf?1sg5wj') format('truetype'),
+    url('fonts/MyreaderIcon.woff?1sg5wj') format('woff'),
+    url('fonts/MyreaderIcon.svg?1sg5wj#MyreaderIcon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MyreaderIcon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-git-commit:before {
+  content: "\e900";
+}
+.icon-log-out:before {
+  content: "\e902";
+}
+.icon-menu:before {
+  content: "\e903";
+}
+.icon-more-vertical:before {
+  content: "\e904";
+}
+.icon-shopping-cart:before {
+  content: "\e905";
+}
+.icon-sun:before {
+  content: "\e906";
+}
+.icon-user:before {
+  content: "\e907";
+}
+.icon-arrow_lift:before {
+  content: "\e901";
+}

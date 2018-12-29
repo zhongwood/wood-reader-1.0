@@ -1,0 +1,32 @@
+@import './reset.styl'
+
+fontSize = 37.5
+
+px2rem($px)
+	return $px / fontSize rem
+
+center()
+	display:flex
+	justify-content: center
+	align-items: center
+
+.icon
+	color:#333
+	fontsize:px2rem(20)
+	
+
+.footer-hide-enter-to,.footer-hide-leave,.nav-hide-enter-to,.nav-hide-leave
+	transform:translateY(0)
+.footer-hide-enter,.footer-hide-leave-to
+	transform:translateY(px2rem(48))
+.nav-hide-enter,.nav-hide-leave-to
+	transform:translateY(px2rem(-48))
+
+.fade-enter,.fade-leave-to
+	opacity:0
+.fade-enter-to,.fade-leave
+	opacity:1
+/*点击效果*/
+.active
+	&:active
+		background-color:rgba(0,0,0,.05)
