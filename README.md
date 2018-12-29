@@ -1,7 +1,8 @@
 # my-reader
 
 > A Vue.js project
-[reader1.0]{http://zhongwood.likesyou.org/reader1.0/}
+
+[reader1.0](http://zhongwood.likesyou.org/reader1.0/)
 
 
 ## 笔记
