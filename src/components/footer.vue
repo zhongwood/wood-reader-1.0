@@ -109,16 +109,16 @@ export default {
 				this.ifSettingShow = !this.ifSettingShow;
 			}
 		},
-		setFontSize(s) {
+		setFontSize(s) {			//设置字体
 			this.$emit("setFontSize",s)
 		},
-		setTheme(index) {
+		setTheme(index) {			//设置主题
 			this.$emit("setTheme",index)
 		},
-		onProgressChange(value) {
+		onProgressChange(value) {	//进度条改变时改变电纸书进度
 			this.$emit("onProgressChange",value)
 		},
-		onProgressInput(value) {
+		onProgressInput(value) {	//进度条滑动时
 			this.progress = value
 			this.$refs.progress.style.backgroundSize=`${this.progress}% 100%`
 		},
@@ -126,9 +126,9 @@ export default {
 			this.ifNavigationShow = true
 			this.ifSettingShow = false
 		},
-		navigationHide(){
-			this.ifNavigationShow = false
-			this.$emit('navAndFooterShow')
+		navigationHide(){ 		//目录隐藏
+			this.ifNavigationShow = false 
+			// this.$emit('navAndFooterShow')
 		},
 		jumpTo(href) {
 			this.navigationHide()

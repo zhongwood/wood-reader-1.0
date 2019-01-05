@@ -73,7 +73,7 @@ export default {
 					name:'eye',
 					style:{
 						body:{
-							color:'#333',background:'#A2F29B'
+							color:'#333',background:'#a8dfa3'
 						}
 					}
 				},
